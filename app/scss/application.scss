@@ -1,0 +1,77 @@
+// Boostrap variables
+$enable-rounded: false;
+
+// Imports
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+//$wedding-white: rgb(255, 232, 226);
+$wedding-white: #FFE1E4;
+$wedding-red: #F17683;
+$wedding-pink: #F9C3C9;
+
+.remove-top-border {
+  border-top: none !important;
+}
+
+.text-center {
+  text-align: center
+}
+
+.title {
+  font-family: 'Niconne', cursive;
+  font-size: 6rem;
+}
+
+.sub-title {
+  font-family: 'Quintessential', cursive;
+  font-size: 3rem;
+}
+
+.contact-title {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.links {
+  font-size: 1.3rem;
+}
+
+.pink-bg {
+  background-color: $wedding-pink;
+}
+
+.divider {
+  background-color: black;
+}
+
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  overflow: visible;
+  height: 0;
+}
+
+hr.style18 {
+  height: 30px;
+  border: 0 solid #8c8b8b;
+  border-top-width: 1px;
+  border-radius: 20px;
+}
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border: 0 solid #8c8b8b;
+  border-bottom-width: 1px;
+  border-radius: 20px;
+}
+
+.width-fify-percent {
+  width: 50%;
+}
