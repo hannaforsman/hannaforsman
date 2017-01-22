@@ -32,7 +32,8 @@ module.exports = {
     },
     copycat: {
       "fonts": ["node_modules/font-awesome/fonts"],
-      "css": ["node_modules/colors.css/css/colors.min.css"]
+      "css": ["node_modules/colors.css/css/colors.min.css"],
+      "": ["CNAME"]
     }
   }
 };
