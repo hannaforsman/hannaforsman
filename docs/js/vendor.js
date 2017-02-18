@@ -232,7 +232,7 @@ require.alias("smooth-scroll/dist/js/smooth-scroll.min.js", "smooth-scroll");req
       });
     }
   };
-  var port = ar.port || 9485;
+  var port = ar.port || 9487;
   var host = br.server || window.location.hostname || 'localhost';
 
   var connect = function connect() {
