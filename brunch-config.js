@@ -34,6 +34,7 @@ module.exports = {
       "fonts": ["node_modules/font-awesome/fonts"],
       "css": ["node_modules/colors.css/css/colors.min.css"],
       "": ["CNAME"]
-    }
+    },
+    digest: {}
   }
 };
